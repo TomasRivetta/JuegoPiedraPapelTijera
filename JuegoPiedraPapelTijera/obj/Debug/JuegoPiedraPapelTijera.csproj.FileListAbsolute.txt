@@ -1,0 +1,8 @@
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\bin\Debug\JuegoPiedraPapelTijera.exe.config
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\bin\Debug\JuegoPiedraPapelTijera.exe
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\bin\Debug\JuegoPiedraPapelTijera.pdb
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\obj\Debug\JuegoPiedraPapelTijera.csproj.AssemblyReference.cache
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\obj\Debug\JuegoPiedraPapelTijera.csproj.SuggestedBindingRedirects.cache
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\obj\Debug\JuegoPiedraPapelTijera.csproj.CoreCompileInputs.cache
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\obj\Debug\JuegoPiedraPapelTijera.exe
+C:\Users\CESAR\Desktop\SERVIDOR\JuegoPiedraPapelTijera\JuegoPiedraPapelTijera\obj\Debug\JuegoPiedraPapelTijera.pdb
