@@ -26,6 +26,8 @@ namespace JuegoPiedraPapelTijera
 
             int opcionJugador1 = 0;
 
+            int opcionJugador2 = 0;
+
             bool correcto = true;
 
             while (menu)
@@ -110,12 +112,88 @@ namespace JuegoPiedraPapelTijera
                     menu = false;
 
                 }
+
                 else if (modoJuego == 2)
                 {
                     Console.WriteLine("DOS JUGADORES");
+
+                    while (correcto)
+                    {
+
+                        Console.WriteLine("JUGADOR 1 ELIJA UNA OPCION");
+                        Console.WriteLine("1 - Tijera");
+                        Console.WriteLine("2 - Piedra");
+                        Console.WriteLine("3 - Papel");
+
+                        opcionJugador1 = Int32.Parse(Console.ReadLine());
+
+                        Console.WriteLine("JUGADOR 2 ELIJA UNA OPCION");
+                        Console.WriteLine("1 - Tijera");
+                        Console.WriteLine("2 - Piedra");
+                        Console.WriteLine("3 - Papel");
+
+                        opcionJugador2 = Int32.Parse(Console.ReadLine());
+
+                        if ((opcionJugador1 >= 1 && opcionJugador1 <= 3) || (opcionJugador2 >= 1 && opcionJugador2 <= 3))
+                        {
+                            correcto = false;
+                        }
+                    }
+
+                    if (opcionJugador1 == 1 && opcionJugador2 == 2)
+                    {
+                        Console.WriteLine($"Jugador 1 eligio: {opcionJugador1}");
+                        Console.WriteLine($"Jugador 2 eligio: {opcionJugador2}");
+
+                        Console.WriteLine("GANO EL Jugador 2");
+                    }
+                    else if (opcionJugador1 == 1 && opcionJugador2 == 3)
+                    {
+                        Console.WriteLine($"Jugador 1 eligio: {opcionJugador1}");
+                        Console.WriteLine($"Jugador 2 eligio: {opcionJugador2}");
+
+                        Console.WriteLine("GANO EL Jugador 1");
+                    }
+                    else if (opcionJugador1 == 2 && opcionJugador2 == 1)
+                    {
+                        Console.WriteLine($"Jugador 1 eligio: {opcionJugador1}");
+                        Console.WriteLine($"Jugador 2 eligio: {opcionJugador2}");
+
+                        Console.WriteLine("GANO EL Jugador 1");
+                    }
+                    else if (opcionJugador1 == 2 && opcionJugador2 == 3)
+                    {
+                        Console.WriteLine($"Jugador 1 eligio: {opcionJugador1}");
+                        Console.WriteLine($"Jugador 2 eligio: {opcionJugador2}");
+
+                        Console.WriteLine("GANO EL Jugador 2");
+                    }
+                    else if (opcionJugador1 == 3 && opcionJugador2 == 1)
+                    {
+                        Console.WriteLine($"Jugador 1 eligio: {opcionJugador1}");
+                        Console.WriteLine($"Jugador 2 eligio: {opcionJugador2}");
+
+                        Console.WriteLine("GANO EL Jugador 2");
+                    }
+                    else if (opcionJugador1 == 3 && opcionJugador2 == 2)
+                    {
+                        Console.WriteLine($"Jugador 1 eligio: {opcionJugador1}");
+                        Console.WriteLine($"Jugador 2 eligio: {opcionJugador2}");
+
+                        Console.WriteLine("GANO EL Jugador 1");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Jugador 1 eligio: {opcionJugador1}");
+                        Console.WriteLine($"Jugador 2 eligio: {opcionJugador2}");
+
+                        Console.WriteLine("EMPATE");
+                    }
+
                     menu = false;
 
                 }
+
                 else 
                 {
                     Console.WriteLine("Ingreso una opcion incorrecta");
